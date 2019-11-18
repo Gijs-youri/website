@@ -9,6 +9,7 @@
     </head>
 
 <body>
+<?php include("../../private/shared/header.php"); ?>
 
 <navigation>
     <ul>
