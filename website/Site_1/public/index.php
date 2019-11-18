@@ -9,7 +9,7 @@
     </head>
 
 <body>
-<?php include("../../private/shared/header.php"); ?>
+<?php include("../private/shared/header.php"); ?>
 
 <navigation>
     <ul>
