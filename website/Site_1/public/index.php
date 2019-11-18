@@ -18,4 +18,4 @@
 
 <div id="content"></div>
 
-
+<?php include("../../private/shared/footer.php"); ?>
