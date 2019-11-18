@@ -13,3 +13,5 @@
 <header>
     <h1>GC Festival Tickets</h1>
 </header>
+
+</body>
