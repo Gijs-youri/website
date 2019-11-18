@@ -23,7 +23,7 @@
 <div id="content"></div>
 
 <footer>
-    &copy; <?php echo date("Y"); ?> Graafschap College
+    &copy; <?php echo date("Y"); ?> GC Festival
 </footer>
 
 </body>
