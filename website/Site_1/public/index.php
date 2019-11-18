@@ -19,4 +19,4 @@
 
 <div id="content"></div>
 
-<?php include("../../private/shared/footer.php"); ?>
+<?php require("../private/shared/footer.php"); ?>
