@@ -11,12 +11,6 @@
 <body>
 <?php include("../private/shared/header.php"); ?>
 
-<navigation>
-    <ul>
-        <li><a href="index.php">Menu</a></li>
-    </ul>
-</navigation>
-
-<div id="content"></div>
+<?php include("../private/shared/navigation.php");?>
 
 <?php require("../private/shared/footer.php"); ?>
