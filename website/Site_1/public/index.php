@@ -1,7 +1,3 @@
-<?php $page_title = "GC Festival Tickets"; ?>
-
-<?php require("../private/shared/header.php"); ?>
+<?php require("../private/initialize.php") ?>
 
 <div id="content"></div>
-
-<?php require("../private/shared/footer.php"); ?>
