@@ -4,3 +4,8 @@
 <div id="content"></div>
 <?php require("../private/shared/footer.php");?>
 
+define("PRIVATE_PATH", dirname(__File__));
+define("PROJECT_PATH", dirname(PRIVATE_PATH));
+define("PUBLIC_PATH", PROJECT_PATH('/public'));
+define("SHARED_PATH", PRIVATE_PATH('/shared'));
+
