@@ -5,7 +5,7 @@
     <div id = "main-menu">
         <h2>Main Menu</h2>
         <ul>
-            <li><a href="public/index.php">Hoofdpagina</a></li>
+            <li><a href="index.php">Hoofdpagina</a></li>
         </ul>
     </div>
 </div>

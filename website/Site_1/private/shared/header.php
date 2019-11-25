@@ -22,6 +22,6 @@
 
 <navigation>
     <ul>
-        <li><a href="index.php">Menu</a></li>
+        <li><a href="<?php echo WWW_ROOT . "/index.php"; ?>">Menu</a></li>
     </ul>
 </navigation>
