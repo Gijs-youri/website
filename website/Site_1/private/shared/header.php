@@ -26,5 +26,7 @@
         <li><a href="<?php echo url_for('/index.php'); ?>">Menu</a></li>
         <li><a href="<?php echo url_for('/login.php'); ?>">Inloggen</a></li>
         <li><a href="<?php echo url_for('/contact.php'); ?>">Contact</a></li>
+        <li><a href="<?php echo url_for('/about.php'); ?>">About</a></li>
+
     </ul>
 </navigation>
