@@ -1,9 +1,3 @@
-<?php
-    if(!isset($page_title)) {
-        $page_title = "Graafschap College Festival Website";
-    }
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,14 +9,11 @@
 </head>
 
 <body>
-
 <header>
-    <h1>GC Festival Tickets</h1>
+    <h1>Inloggen</h1>
 </header>
 
-<navigation>
-    <ul>
-        <li><a href="<?php echo WWW_ROOT . "/index.php"; ?>">Menu</a></li>
-        <li><a href="<?php echo WWW_ROOT . "/login.php"; ?>">Inloggen</a></li>
-    </ul>
-</navigation>
+<p>Hier kunt u later inloggen.</p>
+
+</body>
+</html>
