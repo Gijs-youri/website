@@ -1,3 +1,5 @@
+<?php require("../private/initialize.php") ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +15,16 @@
     <h1>Inloggen</h1>
 </header>
 
-<p>Hier kunt u later inloggen.</p>
+<navigation>
+    <ul>
+        <li><a href="<?php echo WWW_ROOT . "/index.php"; ?>">Menu</a></li>
+        <li><a href="<?php echo WWW_ROOT . "/login.php"; ?>">Inloggen</a></li>
+    </ul>
+</navigation>
 
-</body>
-</html>
+<div id="content">
+    <h2>Inloggen</h2>
+    <p>Hier kunt u later inloggen.</p>
+</div>
+
+<?php require(SHARED_PATH . "/footer.php");?>
