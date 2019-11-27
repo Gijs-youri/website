@@ -1,5 +1,5 @@
 <?php require("../private/initialize.php") ?>
-<?php require(SHARED_PATH . "/header.php");?>
+<?php require(SHARED_PATH . '/header.php');?>
 
 <div id="content">
     <div id = "main-menu">
