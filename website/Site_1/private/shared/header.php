@@ -11,7 +11,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> <?php echo $page_title; ?> </title>
-    <link rel="stylesheet" media="all" href="stylesheets/main.css" />
+    <link rel="stylesheet" media="all" href="<?php echo
+    url_for('/stylesheets/main.css');?>" />
 </head>
 
 <body>
@@ -22,7 +23,7 @@
 
 <navigation>
     <ul>
-        <li><a href="<?php echo WWW_ROOT . "/index.php"; ?>">Menu</a></li>
-        <li><a href="<?php echo WWW_ROOT . "/login.php"; ?>">Inloggen</a></li>
+        <li><a href="<?php echo url_for('/index.php'); ?>">Menu</a></li>
+        <li><a href="<?php echo url_for('/login.php'); ?>">Inloggen</a></li>
     </ul>
 </navigation>
