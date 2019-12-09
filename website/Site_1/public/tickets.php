@@ -3,7 +3,21 @@
 
 <div id="content">
     <h2>Tickets</h2>
-    <p>Hier kunt u uw tickets bestellen.</p>
+    <form method="POST">
+        Voornaam: <br>
+        <input type="text" name="voornaam"><br><br>
+        Achternaam: <br>
+        <input type="text" name="achternaam"><br><br>
+        Email: <br>
+        <input type="email" name="email"><br><br>
+        Aantal Tickets: <br>
+        <input type="number" name="aantal"><br><br>
+        Type Ticket: <br><br>
+        <input type="radio" name="type"> Basic<br><br>
+        <input type="radio" name="type"> Premium<br><br>
+        <input type="radio" name="type"> VIP<br><br>
+        <input type="submit" name="submit" value="Versturen">
+    </form>
 </div>
 
 <?php require(SHARED_PATH . "/footer.php");?>
