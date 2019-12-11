@@ -22,7 +22,7 @@ else{
         <input type="radio" name="geslacht" value="man" checked> Man<br>
         <input type="radio" name="geslacht" value="vrouw"> Vrouw<br>
         <input type="radio" name="geslacht" value="anders"> Anders<br><br>
-
+        <input type="submit" name="versturen" value=""
 
     </form>
 </div>

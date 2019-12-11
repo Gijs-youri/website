@@ -4,7 +4,7 @@
 <div id="content">
     <div id = "main-menu">
         <h2>Hoofdpagina</h2>
-
+        <p>dit is de hoofdpagina</p>
     </div>
 </div>
 
