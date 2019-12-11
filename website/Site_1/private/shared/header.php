@@ -23,8 +23,8 @@
 
 <navigation>
     <ul>
-        <li><a href="<?php echo url_for('/index.php'); ?>">Menu</a></li>
-        <li><a href="<?php echo url_for('/login.php'); ?>">Inloggen</a></li>
+        <li><a href="<?php echo url_for('/index.php'); ?>">Hoofdpagina</a></li>
+        <li><a href="<?php echo url_for('/login.php'); ?>">Inloggen & Registreren</a></li>
         <li><a href="<?php echo url_for('/tickets.php'); ?>">Tickets</a></li>
         <li><a href="<?php echo url_for('/profiel.php'); ?>">Profiel</a></li>
 

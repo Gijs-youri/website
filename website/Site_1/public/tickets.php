@@ -2,7 +2,7 @@
 <?php require(SHARED_PATH . "/header.php");?>
 
 <div id="content">
-    <h2>Tickets</h2>
+    <h2>Tickets Bestellen: </h2>
     <form method="POST">
         Voornaam: <br>
         <input type="text" name="voornaam"><br><br>
@@ -18,6 +18,7 @@
         <input type="radio" name="type"> VIP<br><br>
         <input type="submit" name="submit" value="Versturen">
     </form>
+
 </div>
 
 <?php require(SHARED_PATH . "/footer.php");?>
