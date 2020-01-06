@@ -21,7 +21,7 @@
     <h1>GC Festival Tickets</h1>
 </header>
 
-<div id="contentBack">
+<div id="contentBack" class="achtergrond">
 <navigation>
     <ul>
         <li><a href="<?php echo url_for('/index.php'); ?>">Hoofdpagina</a></li>
@@ -30,4 +30,6 @@
         <li><a href="<?php echo url_for('/profiel.php'); ?>">Profiel</a></li>
 
     </ul>
+</div>
 </navigation>
+
