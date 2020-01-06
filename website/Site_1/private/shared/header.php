@@ -30,6 +30,5 @@
         <li><a href="<?php echo url_for('/profiel.php'); ?>">Profiel</a></li>
 
     </ul>
-</div>
 </navigation>
 
