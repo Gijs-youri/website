@@ -64,8 +64,10 @@ navigation a {
   width: 920px;
   min-height: 500px;
   padding: 0 30px;
+  display: flex;
+  justify-content: center;
 }
-
+    
 #contentBack {
   background-image: url("../images/Black-Orage_Wallpaper.jpg");
 }
