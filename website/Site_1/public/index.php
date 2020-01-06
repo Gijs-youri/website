@@ -4,11 +4,11 @@
 <div id="content">
     <div id = "main-menu">
         <h2>Hoofdpagina</h2>
+        <p>my dick fell off</p>
         <p>dit is de hoofdpagina</p>
     </div>
 </div>
 </div>
-msndklsn my dick fell off
 
 <?php require(SHARED_PATH . "/footer.php");?>
 
