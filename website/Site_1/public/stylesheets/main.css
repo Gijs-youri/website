@@ -4,28 +4,29 @@ html {
 }
 
 body {
-    height: 980px;
+    height: 600px;
     width: 100%;
     margin: 0;
     padding: 0;
     font-family: "Trebuchet MS";
 }
 
-#main-menu, ul{
+#main-menu,
+ul {
     list-style: none;
     padding: 0px;
 }
 
 header {
-    width: 980px;
-    height: 40px;
-    margin: 0 0 10px 0;
+    width: auto;
+    height: auto;
     padding: 0;
     background: black;
-    color: white;
+    color: rgb(255, 81, 0);
 }
 
 header h1 {
+    width: 100%;
     margin: 0;
     padding: 5px;
     font-size: 20px;
@@ -41,7 +42,7 @@ navigation {
 }
 
 navigation ul {
-    width: 980px;
+    width: auto;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -52,20 +53,30 @@ navigation ul li {
     margin-right: 1em;
 }
 
+navigation a {
+    text-decoration: none;
+    color: rgb(255, 81, 0);
+}
+
 #content {
     width: 920px;
     min-height: 500px;
     padding: 0 30px;
 }
 
+.login {
+    display: flex;
+    justify-content: space-between;
+}
+
 footer {
-    width: 940px;
-    height: 20px;
-    margin: 0 0 10px 0;
+    width: auto;
+    height: auto;
     padding: 10px 20px;
     background: black;
-    color: white;
+    color: rgb(255, 81, 0);
 }
+
 
 /* Actions */
 
@@ -96,6 +107,7 @@ table.list tr th {
     text-align: left;
 }
 
+
 /* Forms */
 
 dl {
@@ -119,6 +131,7 @@ dd {
     clear: both;
     margin: 1em 0 1em 75px;
 }
+
 
 /* Errors */
 
