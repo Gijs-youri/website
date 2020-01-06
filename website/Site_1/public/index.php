@@ -5,8 +5,9 @@
     <div id = "main-menu">
         <h2>Hoofdpagina</h2>
         <p>dit is de hoofdpagina</p>
-        <div class="achtergrond"><img src="PUBLIC_PATH/images/Black-Orange Wallpaper.jpg" alt="backGround"></div>
+        <div class="achtergrond"><img src="images/Black-Orage_Wallpaper.jpg" alt="backGround"></div>
     </div>
+</div>
 </div>
 
 <?php require(SHARED_PATH . "/footer.php");?>

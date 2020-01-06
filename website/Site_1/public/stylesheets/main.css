@@ -65,6 +65,10 @@ navigation a {
     padding: 0 30px;
 }
 
+#contentBack {
+    background-image: url(C:\xampp\htdocs\PHP\website\website\Site_1\public\images\Black-Orage_Wallpaper.jpg);
+}
+
 .login {
     display: flex;
     justify-content: space-between;
@@ -78,13 +82,11 @@ footer {
     color: rgb(255, 81, 0);
 }
 
-
 /* Actions */
 
 .actions {
     margin-bottom: 1em;
 }
-
 
 /* Lists */
 
@@ -107,7 +109,6 @@ table.list tr th {
     color: white;
     text-align: left;
 }
-
 
 /* Forms */
 
@@ -132,7 +133,6 @@ dd {
     clear: both;
     margin: 1em 0 1em 75px;
 }
-
 
 /* Errors */
 

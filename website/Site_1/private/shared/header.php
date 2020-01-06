@@ -21,6 +21,7 @@
     <h1>GC Festival Tickets</h1>
 </header>
 
+<div id="contentBack">
 <navigation>
     <ul>
         <li><a href="<?php echo url_for('/index.php'); ?>">Hoofdpagina</a></li>
